@@ -45,7 +45,8 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'AKIflyMSC/Classes/iflyMSC.framework'
 
   s.pod_target_xcconfig = {
-      'OTHER_LDFLAGS' => '-framework "iflyMSC"',
-      'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/iflyMSC/**'
+    'OTHER_LDFLAGS' => '-framework "iflyMSC"',
+    'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/AKIflyMSC/**'
   }
+
 end
