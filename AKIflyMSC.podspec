@@ -37,6 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'AddressBook', 'AudioToolbox', 'AVFoundation', 'Contacts', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'QuartzCore', 'SystemConfiguration'
+  s.libraries = 'c++', 'icucore', 'z'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.vendored_frameworks = 'AKIflyMSC/Classes/iflyMSC.framework'
 end
