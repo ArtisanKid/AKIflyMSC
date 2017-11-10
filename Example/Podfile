@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKIflyMSC_Example' do
+  pod 'AKIflyMSC', :path => '../'
+
+  target 'AKIflyMSC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
