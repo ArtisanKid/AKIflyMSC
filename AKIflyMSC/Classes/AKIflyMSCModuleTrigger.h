@@ -16,6 +16,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <iflyMSC.framework/IFlyMSC.h>
 
 @interface AKIflyMSCModuleTrigger : NSObject
 

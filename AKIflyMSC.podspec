@@ -43,5 +43,4 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.vendored_frameworks = 'AKIflyMSC/Classes/iflyMSC.framework'
-
 end
