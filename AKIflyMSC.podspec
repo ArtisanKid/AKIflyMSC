@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AKIflyMSC/Classes/**/*'
+  s.source_files = 'AKIflyMSC/Classes/**/*.{h,m}'
+  s.preserve_paths = 'AKIflyMSC/Classes/*.{txt,md,doc,docx,pdf}'
   
   # s.resource_bundles = {
   #   'AKIflyMSC' => ['AKIflyMSC/Assets/*.png']
@@ -42,4 +43,9 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.vendored_frameworks = 'AKIflyMSC/Classes/iflyMSC.framework'
+
+  s.pod_target_xcconfig = {
+      'OTHER_LDFLAGS' => '-framework "iflyMSC"',
+      'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/iflyMSC/**'
+  }
 end
