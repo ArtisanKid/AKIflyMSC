@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AKIflyMSC/Classes/**/*.{h,m}'
-  s.preserve_paths = 'AKIflyMSC/Classes/*.{txt,md,doc,docx,pdf}'
+#s.preserve_paths = 'AKIflyMSC/Classes/*.{txt,md,doc,docx,pdf}'
   
   # s.resource_bundles = {
   #   'AKIflyMSC' => ['AKIflyMSC/Assets/*.png']
